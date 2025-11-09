@@ -53,7 +53,7 @@ def process(number):
     global running_threads, processc, print_used
     running_threads += 1
     number = number.strip()
-    url = "https://www.tokocash.com/oauth/otp"
+    url = "https://https://www.ovo.id/oauth/otp"
     data = {"msisdn": number, "accept": "call"}
     headers = {"X-Requested-With": "XMLHttpRequest"}
     temp_code = "500001"
